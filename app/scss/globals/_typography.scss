@@ -58,5 +58,19 @@ h6 {
 
 a, a:visited, a:active {
     text-decoration: none;
-    color: #0000ff;
+    color: $mc500;
+    transition: color 0.3s ease;
+    
+    &:hover, & :hover {
+        color: $sc500;
+    }
+}
+
+pre {
+    font-family: "wpsites-mono";
+    line-height: 1.5;
+    background-color: $mo100;
+    padding: $m6;
+    border-radius: $br2;
+    overflow-x: auto;
 }
