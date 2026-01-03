@@ -4,34 +4,27 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>AIWEB</title>
-        <link rel="stylesheet" href="/dist/style.css" />
-    </head>
-    <body>
-  <div class="grid">
-    <main class="grid__main">
-      <h1>Mythos</h1>
-      <p>a</p>
-    </main>
-    <aside class="grid__sidebar">
-      <div class="grid__widget green">
-        <h2>More Info</h2>
-        <p>a</p>
-      </div>
-      <div class="grid__widget magenta">
-        <h2>Check out this cool thing!</h2>
-        <p>a</p>
-      </div>
-      <div class="grid__widget magenta">
-        <h2>More Cool stuff is right here too!</h2>
-        <p>a</p>
-      </div>
-    </aside>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIWEB</title>
+  <link rel="stylesheet" href="/dist/style.css" />
+  <script src="/app/js/script-header.min.js"></script>
+</head>
+
+<body>
+  <!-- --------------- HEADER --------------- -->
+  <div include-html="/html-elements/header.html"></div>
+
+
+  
+  <!-- --------------- CONTENT --------------- -->
+  <div>
+    <h2>Welcome to AIWEB</h2>
+    <p>This is a starter template for your AIWEB projects.</p>
   </div>
 
 
@@ -40,6 +33,8 @@
 
 
 
+  <!-- --------------- FOOTER --------------- -->
+ <div include-html="/html-elements/footer.html"></div>
 
 
 
@@ -178,6 +173,15 @@
 
 
 
-  <script src="/app/js/script.js"></script>
+
+
+
+
+
+
+
+  <script src="/app/js/script.min.js"></script>
+  <script> includeHTML(); </script>
 </body>
+
 </html>
