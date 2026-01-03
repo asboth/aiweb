@@ -1,0 +1,34 @@
+@use '../utils' as *;
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: $m12;
+    //max-width: 1220px;
+    width: min(100% - $m12, 1220px);
+    margin-inline: auto;
+
+    @include bp-min('md') {
+        grid-template-columns: 7fr 5fr;
+        grid-template-rows: auto;
+    }
+
+    &__main, &__sidebar {
+        padding: $m12;
+    }
+
+    &__main {
+        background-color: $mc100;
+}
+    &__sidebar {
+        display: grid;
+        background-color: $mo200;
+        gap: $m14 !important;
+    }
+
+    &__widget {
+        background-color: $sc100;
+    }
+
+}

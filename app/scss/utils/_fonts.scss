@@ -1,0 +1,147 @@
+@use 'var-elements' as *;
+
+/* --------------- BODY --------------- */
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w100;
+  src: $wpsites-100-woff, $wpsites-100-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w200;
+  src: $wpsites-200-woff, $wpsites-200-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w300;
+  src: $wpsites-300-woff, $wpsites-300-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w400;
+  src: $wpsites-400-woff, $wpsites-400-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w500;
+  src: $wpsites-500-woff, $wpsites-500-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w600;
+  src: $wpsites-600-woff, $wpsites-600-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w700;
+  src: $wpsites-700-woff, $wpsites-700-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w800;
+  src: $wpsites-800-woff, $wpsites-800-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites;
+  font-style: $normal;
+  font-weight: $w900;
+  src: $wpsites-900-woff, $wpsites-900-woff2;
+}
+
+/* --------------- HEADER --------------- */
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w100;
+  src: $wpsites-header-100-woff, $wpsites-header-100-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w200;
+  src: $wpsites-header-200-woff, $wpsites-header-200-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w300;
+  src: $wpsites-header-300-woff, $wpsites-header-300-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w400;
+  src: $wpsites-header-400-woff, $wpsites-header-400-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w500;
+  src: $wpsites-header-500-woff, $wpsites-header-500-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w600;
+  src: $wpsites-header-600-woff, $wpsites-header-600-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w700;
+  src: $wpsites-header-700-woff, $wpsites-header-700-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w800;
+  src: $wpsites-header-800-woff, $wpsites-header-800-woff2;
+}
+
+@font-face {
+  font-display: $swap;
+  font-family: $wpsites-header;
+  font-style: $normal;
+  font-weight: $w900;
+  src: $wpsites-header-900-woff, $wpsites-header-900-woff2;
+}
