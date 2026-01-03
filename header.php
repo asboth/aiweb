@@ -1,0 +1,22 @@
+<php?>
+
+<div class="grid">
+    <main class="grid__main">
+      <h1>Mythos</h1>
+      <p>a</p>
+    </main>
+    <aside class="grid__sidebar">
+      <div class="grid__widget green">
+        <h2>More Info</h2>
+        <p>a</p>
+      </div>
+      <div class="grid__widget magenta">
+        <h2>Check out this cool thing!</h2>
+        <p>a</p>
+      </div>
+      <div class="grid__widget magenta">
+        <h2>More Cool stuff is right here too!</h2>
+        <p>a</p>
+      </div>
+    </aside>
+  </div>
