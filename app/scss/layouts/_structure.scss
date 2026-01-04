@@ -1,5 +1,28 @@
 @use '../utils' as *;
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: $m12;
+
+    @include bp-min('md') {
+        flex-direction: row;
+    }
+
+    &__inner {
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
 .grid {
     display: grid;
     grid-template-columns: 1fr;
