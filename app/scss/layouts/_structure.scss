@@ -1,57 +1,42 @@
 @use '../utils' as *;
 
-.flex{
+.navbar{
     display: flex;
     flex-direction: column;
-    gap: $m12;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0;
+    width: 100%;
 
     @include bp-min('md') {
         flex-direction: row;
     }
 
     &__inner {
+        display:flex;
+        flex-direction: column;
         
     }
 }
 
-
-
-
-
-
-
-
-
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    gap: $m12;
-    //max-width: 1220px;
-    width: min(100% - $m12, 1220px);
-    margin-inline: auto;
-
-    @include bp-min('md') {
-        grid-template-columns: 7fr 5fr;
-        grid-template-rows: auto;
-    }
-
-    &__main, &__sidebar {
-        padding: $m12;
-    }
-
-    &__main {
-        background-color: $mc100;
+.navbar__inner:nth-child(1) {
+    background-color: red;
+    flex-grow: 0;
 }
-    &__sidebar {
-        display: grid;
-        background-color: $mo200;
-        gap: $m14 !important;
-    }
-
-    &__widget {
-        background-color: $sc100;
-    }
-
+.navbar__inner:nth-child(2) {
+    background-color: green;
+    flex-grow: 1;
 }
+.navbar__inner:nth-child(3) {
+    background-color: blue;
+    
+}
+
+
+/*---------------------------------------------------------
+-----------------------------------------------------------
+---------------------------------------------------------*/
+
+
+
+
