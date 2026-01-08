@@ -50,7 +50,10 @@ body {
 
 
 	&__item {
-
+		flex: 1 1 rem(200);
+		min-height: rem(150);
+		background-color: $mo100;
+		padding: rem(20);
 	}
 }
 
