@@ -16,14 +16,14 @@ body {
 }
 
 .flex {
-	min-height: 300px;
+	min-height: rem(300);
 	background-color: $mo200;
 
 	&__item {
 		min-height: 100px;
 		min-width: 100px;
 		background-color: $mo400;
-		padding: 20px;
+		padding: rem(20);
 	}
 }
 

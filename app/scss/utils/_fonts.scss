@@ -1,130 +1,17 @@
-@use 'var-elements' as *;
-
-/* --------------- BODY --------------- */
 @font-face {
   font-display: swap;
   font-family: wpsites;
   font-style: normal;
-  font-weight: 300;
-  src: url('/uplds/fonts/wpsites-300.woff') format('woff'),
-       url('/uplds/fonts/wpsites-300.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites;
-  font-style: normal;
-  font-weight: 400;
-  src: url('/uplds/fonts/wpsites-400.woff') format('woff'),
-       url('/uplds/fonts/wpsites-400.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites;
-  font-style: normal;
-  font-weight: 500;
-  src: url('/uplds/fonts/wpsites-500.woff') format('woff'),
-       url('/uplds/fonts/wpsites-500.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites;
-  font-style: normal;
-  font-weight: 600;
-  src: url('/uplds/fonts/wpsites-600.woff') format('woff'),
-       url('/uplds/fonts/wpsites-600.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites;
-  font-style: normal;
-  font-weight: 700;
-  src: url('/uplds/fonts/wpsites-700.woff') format('woff'),
-       url('/uplds/fonts/wpsites-700.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites;
-  font-style: normal;
-  font-weight: 900;
-  src: url('/uplds/fonts/wpsites-900.woff') format('woff'),
-       url('/uplds/fonts/wpsites-900.woff2') format('woff2');
-}
-
-/* --------------- HEADER --------------- */
-@font-face {
-  font-display: swap;
-  font-family: wpsites-header;
-  font-style: normal;
-  font-weight: 300;
-  src: url('/uplds/fonts/wpsites-header-300.woff') format('woff'),
-       url('/uplds/fonts/wpsites-header-300.woff2') format('woff2');
+  src: url('/uplds/fonts/wpsites.woff') format('woff-variations'),
+       url('/uplds/fonts/wpsites.woff') format('woff') tech('variations');
+  src: url('/uplds/fonts/wpsites.woff2') format('woff2-variations'),
+       url('/uplds/fonts/wpsites.woff2') format('woff2') tech('variations');
 }
 
 @font-face {
   font-display: swap;
   font-family: wpsites-header;
   font-style: normal;
-  font-weight: 400;
-  src: url('/uplds/fonts/wpsites-header-400.woff') format('woff'),
-       url('/uplds/fonts/wpsites-header-400.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites-header;
-  font-style: normal;
-  font-weight: 500;
-  src: url('/uplds/fonts/wpsites-header-500.woff') format('woff'),
-       url('/uplds/fonts/wpsites-header-500.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites-header;
-  font-style: normal;
-  font-weight: 600;
-  src: url('/uplds/fonts/wpsites-header-600.woff') format('woff'),
-       url('/uplds/fonts/wpsites-header-600.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites-header;
-  font-style: normal;
-  font-weight: 700;
-  src: url('/uplds/fonts/wpsites-header-700.woff') format('woff'),
-       url('/uplds/fonts/wpsites-header-700.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites-header;
-  font-style: normal;
-  font-weight: 900;
-  src: url('/uplds/fonts/wpsites-header-900.woff') format('woff'),
-       url('/uplds/fonts/wpsites-header-900.woff2') format('woff2');
-}
-
-/* --------------- MONO --------------- */
-@font-face {
-  font-display: swap;
-  font-family: wpsites-mono;
-  font-style: normal;
-  font-weight: 400;
-  src: url('/uplds/fonts/wpsites-mono-400.woff') format('woff'),
-       url('/uplds/fonts/wpsites-mono-400.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: wpsites-mono;
-  font-style: normal;
-  font-weight: 700;
-  src: url('/uplds/fonts/wpsites-mono-700.woff') format('woff'),
-       url('/uplds/fonts/wpsites-mono-700.woff2') format('woff2');
+  src: url('/uplds/fonts/wpsites-header.woff2') format('woff2-variations'),
+       url('/uplds/fonts/wpsites-header.woff2') format('woff2') tech('variations');
 }
